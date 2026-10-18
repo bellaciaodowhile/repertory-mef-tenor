@@ -48,8 +48,6 @@ export const MiniPlayerDock: React.FC<MiniPlayerDockProps> = ({
             </div>
             <div className="flex items-center space-x-1.5 text-[11px] text-neutral-400 mt-0.5">
               <span className="text-white font-semibold">{currentMeta?.name}</span>
-              <span>•</span>
-              <span className="truncate">Toca para abrir en grande</span>
             </div>
           </div>
         </div>

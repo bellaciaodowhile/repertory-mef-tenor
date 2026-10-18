@@ -45,11 +45,6 @@ export const AlbumHeroCard: React.FC<AlbumHeroCardProps> = ({
             <span className="text-emerald-600 font-bold">{stats.total} Canciones</span>
             <span>•</span>
             <span className="text-neutral-700">Tenores 2026</span>
-            <span>•</span>
-            <span className="text-neutral-500 flex items-center gap-1 font-mono">
-              <Github className="w-3 h-3 text-neutral-700" />
-              mef-2026-repertory
-            </span>
           </div>
 
           {/* Title */}
@@ -58,7 +53,7 @@ export const AlbumHeroCard: React.FC<AlbumHeroCardProps> = ({
           </h1>
 
           <p className="text-xs sm:text-sm text-neutral-500 font-medium mt-1">
-            Coral Música en Familia • Guías Tenor, Pistas y Demos
+            Coral Música en Familia • Guía Tenor, Pistas y Demos
           </p>
 
           {currentVoiceMeta && (
